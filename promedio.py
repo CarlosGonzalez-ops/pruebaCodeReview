@@ -1,5 +1,4 @@
-def promedio(a, b):
-    return (a + b) / 2
-
-numeros = [10, 20, 30]
-print(promedio(numeros[0], numeros[2]))
+def calcular(user_input, password):
+    print("password:", password)
+    resultado = eval(user_input)
+    return resultado
